@@ -64,8 +64,7 @@ width: 20%;
 	background-color: white;
    float: right;
 }
-#o{
-//** position: relative;
- top: 0px;
- margin: 0px;
-}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
