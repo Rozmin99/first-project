@@ -1,0 +1,14 @@
+#hr {
+	text-align: center;
+	color: solid blue
+	
+}
+#box{
+	text-align: center;
+	color: pink;
+	background-color: blue;
+	padding: 10px 10px 10px 10px;
+	width: 300px;
+	margin: 20px;
+	background-color: :5px solid black; 
+}
