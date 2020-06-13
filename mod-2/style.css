@@ -65,5 +65,9 @@ width: 20%;
    float: right;
 }
 @media (max-width: 600px) {
-	div
+
+	div{
+		width:50%;
+		height: auto;
+	}
 }
