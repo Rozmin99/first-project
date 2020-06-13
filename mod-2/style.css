@@ -12,9 +12,7 @@
 	border: 10px solid black;
 	color: white;
 	font-weight: bold;
-	position: relative;
-	top: 0px;
-	left: 25%;
+	
 	float: left;
 }
 #content{
@@ -25,9 +23,7 @@
 	color: white;
 	padding: 5px;
 	font-weight: bold;
-	position: relative;
-	top: 0px;
-	left: 25%;
+	
 float: left;
 
 }
@@ -39,9 +35,7 @@ float: left;
 	color: white;
 	padding: 5px;
 	font-weight: bold;
-	position: relative;
-	top: 0px;
-	left: 25%;
+	
 	float: left;
 }
 #p1{
