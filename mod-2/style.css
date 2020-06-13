@@ -3,12 +3,33 @@
 	color: solid blue
 	
 }
-#box{
-	text-align: center;
-	color: pink;
-	background-color: blue;
+#box1{
+
+	color: 10px white;
+	background-color: black;
 	padding: 10px 10px 10px 10px;
 	width: 300px;
-	margin: 20px;
-	background-color: :5px solid black; 
+	margin: 5px;
+	 
+	float: right;
+
+}
+#box2{
+
+	color: blue;
+	background-color: black;
+	padding: 10px 10px 10px 10px;
+	width: 300px;
+	margin: 5px;
+	 float: left;
+
+}
+#box3{
+
+	color: 10px white;
+	background-color: black;
+	padding: 10px 10px 10px 10px;
+	width: 300px;
+	margin: 5px;
+	float: right;
 }
