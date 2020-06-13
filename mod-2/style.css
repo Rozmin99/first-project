@@ -1,35 +1,69 @@
 #hr {
 	text-align: center;
-	color: solid blue
+	color: blue;
 	
 }
-#box1{
-
-	color: 10px white;
-	background-color: black;
-	padding: 10px 10px 10px 10px;
-	width: 300px;
-	margin: 5px;
-	 
-	float: right;
+#box{
+	width: 50%;
+    
+	margin: 20px;
+	padding: 5px;
+    background-color: pink;
+	border: 10px solid black;
+	color: white;
+	font-weight: bold;
+	position: relative;
+	top: 0px;
+	left: 25%;
+}
+#content{
+	width:50%;
+	margin: 20px;
+	background-color: grey;
+	border: 10px solid black;
+	color: white;
+	padding: 5px;
+	font-weight: bold;
+	position: relative;
+	top: 0px;
+	left: 25%;
 
 }
-#box2{
-
-	color: blue;
-	background-color: black;
-	padding: 10px 10px 10px 10px;
-	width: 300px;
-	margin: 5px;
-	 float: left;
-
+#content1{
+	width:50%;
+	margin: 20px;
+	background-color: skyblue;
+	border: 10px solid black;
+	color: white;
+	padding: 5px;
+	font-weight: bold;
+	position: relative;
+	top: 0px;
+	left: 25%;
 }
-#box3{
+#p1{
+	width: 50%;
+	margin: 10px;
+	border:5px solid black;
+	color: black;
+	background-color: white;
+   float: right;
+}
 
-	color: 10px white;
-	background-color: black;
-	padding: 10px 10px 10px 10px;
-	width: 300px;
-	margin: 5px;
-	float: right;
+#p2{
+width: 50%;
+	margin: 10px;
+	border:5px solid black;
+	color: black;
+	background-color: white;
+   float: right;
+}
+#p3
+{
+	width: 50%;
+	margin: 10px;
+	border:5px solid black;
+	color: black;
+	background-color: white;
+   float: right;
 }
