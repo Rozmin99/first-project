@@ -64,19 +64,33 @@ width: 20%;
 	color: black;
 	background-color: white;
    float: right;
+   
 }
 #limit{
-	
+
 }
 
-/*large device
+large device
 @media (min-width: 1200px){
-
+	#box{
+		width: 80%
+	}
+	#content{width: 80%
 }
-
-/* medium device
-@media(min-width: 992px) and (max-width: 1199px){
-
+#content1{
+width: 80%
+}
+}
+ medium device
+@media(min-width: 768px) and (max-width: 991px){
+#box{
+		width: 50%
+	}
+	#content{width: 50%
+}
+#content1{
+width: 50%
+}
 }
 
 /*small device*
