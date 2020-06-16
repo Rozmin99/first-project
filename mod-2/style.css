@@ -70,46 +70,24 @@ width: 20%;
 
 }
 
-large device
+/*large device*/
 @media (min-width: 1200px){
-	#hr{
-		width: 80%
-	}
-	#box{
-		width: 80%
-	}
-	#content{width: 80%
+.col-mod-4{
+	width: 90%
 }
-#content1{
-width: 80%
-}
+
 }
  medium device
 @media(min-width: 768px) and (max-width: 991px){
-	#hr{
-		width: 50%
-#box{
-		width: 50%
-	}
-	#content{width: 50%
-}
-#content1{
-width: 50%
-}
-}
+.col-mod-4{
+	width: 50%
 
+}
+.col-mod-6{
+	width: 50%
+}
 
 /*extra small device*/
 @media(max-width: 767px){
-	#hr{
-		width: 30%
-	#box{
-		width: 30%
-	}
-	#content{width: 30%
-}
-#content1{
-width: 30%
-
-
-}
+.col-mod-4{
+	width: 30%
