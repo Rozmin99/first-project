@@ -16,7 +16,7 @@
 #logo{
 
 	background : url('./images/rtslogo.png') no-repeat;
-	width: 270px;
+	width: 200px;
 	height: 140px;
    margin: 10px 
    }
@@ -24,12 +24,12 @@
 float: right;
  }
  .navbar-brand{
- 	padding-top: 25px;
+ 	padding-top: 30px;
  }
  .navbar-brand h1{/*heading*/
  	font-family: 'lora',sans-serif;
  	color: #557c3e;
- 	font-size: 1.5em;
+ 	font-size: 1.8em;
  	text-transform: uppercase;
  	font-weight: bold;
  	text-shadow: 1px 1px 1px #222;
@@ -37,8 +37,7 @@ float: right;
  	margin-bottom: 0;
  	line-height: 0.75; 
  }
- .navbar-brand a:hover, .novbar-brand a:focus{
- 	text-decoration: none;
+
  }
 .navbar-brand p{
 	color: #000;
@@ -49,8 +48,31 @@ float: right;
 .navbar-brand p span{
 	vertical-align:middle;
 }
+#nav-list{
+	margin-top: 25px;
+
+}
+#nav-list a {
+	color: #951C49;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: #E7E7E7;
+
+}
+#nav-list a span{
+	font-size: 1.8em;
+}
+#phone{
+	margin-top: 25px;
+}
+#phone  a{/*number*/
+	color: #557c3e;
+	text-align: right;
+	padding-right: 15px;
 
 
-
-
-
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #61122f;
+}
