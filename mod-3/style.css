@@ -1,4 +1,6 @@
-
+.kite{
+	background-color: grey;
+}
 
 #logo{
 
@@ -10,13 +12,14 @@
    .navbar-brand p{
    	font-weight: bold;
    	color: black;
-   	margin-top: 25px;
+   	margin-top: 10px;
    	padding: 10px;
    	font-style: italic;
    	font-family: sans-serif;
    	text-transform: uppercase;
    	font-size: 2.5em;
    	text-align: center;
+
    }
   
 .menu{
@@ -56,3 +59,22 @@
 	color: pink;
 }
 
+/*large device
+@media (min-width: 1200px){
+.row{
+	width: 90%
+}
+
+
+ medium device
+@media(min-width: 768px) and (max-width: 991px){
+.row{
+	width: 50%
+
+}
+
+/*extra small device*/
+@media(max-width: 767px)
+{.row
+	width: 30%
+}
