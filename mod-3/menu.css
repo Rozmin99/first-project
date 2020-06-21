@@ -71,15 +71,20 @@
 	
 }
 /*footer*/
-.panel-footer{
+.kk{
 	margin-top: 30px;
 	padding-top: 35px;
 	padding-bottom: 30px;
-	background-color: blue;
+	background-color: #222;
 	border-top: 0;
 
 }
-.panel-footer div.row
+#address span{
+	color: grey;
+	text-transform: uppercase;
+	text-align: center;
+}
+
 #menu-tile, #specials-tile, #map-tile{
 	height: 250px;
 	width: 100%;
@@ -111,6 +116,37 @@ background-position: center;
 	color: #fff;
 	opacity: 0.8;
 }
+
+/*menu-cat*/
+.category-tile{
+	position: relative;
+	border: 2px solid#3f0c1f;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto 15px;
+}
+.category-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: 0.8;
+}
+.category-tile:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu_categories-title +div{
+	margin-bottom: 50px;
+}
+
+
+
 
 /*large device*/
 @media(min-width: 1200px){
@@ -218,5 +254,13 @@ background-position: center;
 	#menu-tile, #specials-tile{
 		width: 280px;
 		margin: 0 auto 15px;
+	}
+	.col-xxs-12{
+	position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  float: left;
+  width: 100%
 	}
 }
