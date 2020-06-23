@@ -48,3 +48,19 @@
 	font-weight: bold;
 }
 
+@media(min-width:768px) and (max-width: 991px){
+	
+#menu{
+	width: 50%;
+	color: blue;
+	padding: 10px;
+	overflow: auto;
+    background-color: white;
+	border:5px solid black;
+	text-align: center ;
+	margin: 30px;
+	padding: 10px;
+	margin-left: 50px;
+}
+	
+}
