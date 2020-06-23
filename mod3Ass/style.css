@@ -39,12 +39,12 @@
 	padding: 10px;
 	margin-left: 50px;
 }
-#name{
+
+#seafood{
+	color: red;
+	text-transform: uppercase;
+	text-align: center;
 	font-size: 25px;
 	font-weight: bold;
-	text-align: center;
-	text-transform: uppercase;
-	color: red;
-	text-shadow: 10px;
 }
 
