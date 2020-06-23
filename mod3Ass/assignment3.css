@@ -39,4 +39,10 @@
 	padding: 10px;
 	margin-left: 50px;
 }
+#name{
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
 
