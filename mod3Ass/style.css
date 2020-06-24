@@ -1,5 +1,6 @@
 #k{
 	background-color: skyblue;
+
 }
 #header-nav a h1{
  color: black;
@@ -28,18 +29,16 @@
 	font-weight: bold;
 }
 #menu {
-	width: 90%;
-
+	width:80%;
+	position: relative;
 	color:black;
-	padding: 10px;
-
     background-color: grey;
 	border:5px solid black;
 	text-align: center ;
-	margin-top: 30px;
-	margin-right: 50px;
-	margin-left: 50px;
-	padding: 10px;
+	margin-top:30px;
+	margin-bottom: 30px;
+	margin: 35px;
+	padding: 15px;
 	
 }
 
@@ -58,12 +57,16 @@
   font-size: 16px;
   cursor: pointer;
   display: inline-block;
+  color: white;
 }
 
 /* On mouse-over */
 .btn:hover {background: #eee;}
 
-.success {color:white;}
+.success {
+	color:black;
+
+}
 
 
 
@@ -72,26 +75,18 @@
 @media(min-width: 1200px){
 
 #menu{
-	width: 90%;
-	margin-left: 75px;
-
-}
-@media(min-width:768px) and (max-width: 991px){
-}	
-/*#menu {
-	width: 30%;
-
-	color: blue;
-	padding: 10px;
-	margin-left: 65px;
-    background-color: white;
-	border:5px solid black;
-	text-align: center ;
-	margin-top: 20px;
-	padding: 10px;
-	margin-left:50px;
+	width: 80%;
 	
 
+}
+@media(min-width:768px) and (max-width: 1024px){
+	
+#menu {
+	width: 50%;
+    margin: 25px;
+
+
+	
 }
 }
 
