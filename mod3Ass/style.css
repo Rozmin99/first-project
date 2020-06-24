@@ -23,21 +23,24 @@
 	font-style: italic;
 	font-size: 25px;
 	margin-top: 30px;
-	color: grey;
+	color: black;
 	text-align: center;
 	font-weight: bold;
 }
 #menu {
-	width: 300px;
-	color: blue;
+	width: 90%;
+
+	color:black;
 	padding: 10px;
-	overflow: auto;
-    background-color: white;
+
+    background-color: grey;
 	border:5px solid black;
 	text-align: center ;
-	margin: 30px;
-	padding: 10px;
+	margin-top: 30px;
+	margin-right: 50px;
 	margin-left: 50px;
+	padding: 10px;
+	
 }
 
 #seafood{
@@ -48,19 +51,52 @@
 	font-weight: bold;
 }
 
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* On mouse-over */
+.btn:hover {background: #eee;}
+
+.success {color:white;}
+
+
+
+
+
+@media(min-width: 1200px){
+
+#menu{
+	width: 90%;
+	margin-left: 75px;
+
+}
 @media(min-width:768px) and (max-width: 991px){
 	
-#menu{
+#menu {
 	width: 50%;
+
 	color: blue;
 	padding: 10px;
-	overflow: auto;
+	margin-left: 65px;
     background-color: white;
 	border:5px solid black;
 	text-align: center ;
-	margin: 30px;
+	margin-top: 20px;
 	padding: 10px;
-	margin-left: 50px;
-}
+	margin-left:50px;
 	
+
 }
+}
+
+@media(max-width: 767px) {
+#menu {
+	width: 30%;
+	
+		}
