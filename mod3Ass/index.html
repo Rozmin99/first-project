@@ -17,7 +17,7 @@
 					<a href="assignment3.html" class="visible-lg visible-md visible-sm visible-xs"><h1>food llc</h1></a>
 					<div>
 						
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -30,10 +30,11 @@
 					<a href="index.html">Home</a>
 				</li>
 					<li class="active visible-xs">
-						<a href="#">Chicken</a>
+						<a href="index.html">Chicken</a>
 					</li>
-					<li class="active visible-xs"><a href="#">Beef</a></li>
-					<li class="active visible-xs"><a href="#">Sushi</a></li>
+					<li class="active visible-xs"><a href="#Beef">Beef</a></li>
+					<li class="active visible-xs"><a href="#Sushi">Sushi</a></li>
+
 				</ul></div>
 
 
@@ -44,7 +45,19 @@
 
 			</div>
 		</nav>
-
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+    <a href="#about">About</a>
+    <a href="#base">Base</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+    <a href="#custom">Custom</a>
+    <a href="#support">Support</a>
+    <a href="#tools">Tools</a>
+  </div>
+</div>
 	</header>
 <div id="seafood" class="col-md-12 col-sm-12 col-xs-12">our menu</div>
 	<div>
