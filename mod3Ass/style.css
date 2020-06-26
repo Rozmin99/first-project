@@ -28,16 +28,15 @@
 	text-align: center;
 	font-weight: bold;
 }
-#menu {
+#chicken ,#Beef,#Sushi {
 	width:90%;
-	
 	color:black;
     background-color: grey;
 	border:5px solid black;
 	text-align: center ;
 	margin-top:30px;
 	margin-bottom: 30px;
-	margin: 65px;
+	margin: 35px;
 
 	padding: 15px;
 	
@@ -75,12 +74,12 @@
 
 @media(min-width: 1200px){
 
-#menu{
+{
 	width: 90%;
 	
 
 }
-@media(min-width:768px) and (max-width: 1024px){
+/*@media(min-width:768px) and (max-width: 1024px){
 	
 #menu {
 	width: 50%;
@@ -95,4 +94,4 @@
 #menu {
 	width: 30%;
 	
-		}
+		}*/
