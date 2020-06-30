@@ -58,7 +58,7 @@ body {
   background: #E7E7E7;
 }
 #nav-list a span {
-  font-size: 1.8em;
+  font-size: 1.0em;
 }
 
 #phone {
@@ -73,8 +73,14 @@ body {
   text-align: right;
   padding-right: 15px;
   font-size: 1.2em; 
-}
 
+
+}
+#more {display: none;}
+
+#mm a{
+  font-size: 1em;
+}
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;
 }
@@ -83,6 +89,11 @@ body {
   margin-top: -30px;
 }
 /* END HEADER */
+/*main content*/
+#intro-title{
+  font-size: 2em;
+  font-weight: bold;
+}
 
 /* FOOTER */
 .panel-footer {
@@ -122,26 +133,41 @@ body {
   border: 2px solid #3F0C1F;
 }
 
-#menu-tile, #specials-tile, #map-tile {
+#Hobbies, #Traning, #myproject {
   height: 250px;
   width: 100%;
   margin-bottom: 15px;
   position: relative;
   border: 2px solid #3F0C1F;
   overflow: hidden;
+
 }
-#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+#Hobbies:hover, #Traning:hover, #myproject:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
-#menu-tile {
-  background: url('../images/menu-tile.jpg') no-repeat;
+#Hobbies {
+  background: url('../images/Hobb_400x300.jpeg') no-repeat;
   background-position: center;
+  height: 300px;
+  width: 400px;
+  margin-left: 50px;
 }
-#specials-tile {
-  background: url('../images/specials-tile.jpg') no-repeat;
+#Traning {
+  background: url('../images/certification_400x300.png') no-repeat;
   background-position: center;
+  height: 300px;
+  width: 400px;
+ margin-left: 50px;
 }
-#menu-tile span, #specials-tile span, #map-tile span {
+
+#myproject {
+  background: url('../images/project400x300.jpeg') no-repeat;
+  background-position: center;
+  height: 300px;
+  width: 400px;
+  margin-left: 50px;
+}
+#Hobbies span, #Traning span, #myproject span {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -154,6 +180,23 @@ body {
   opacity: .8;
 }
 /* END HOME PAGE */
+
+
+/*about*/
+#Introduction{
+  font-weight: 1em;
+  opacity: 2;
+  background-color:seagreen;
+  padding: 20px;
+  text-align: middle;
+  border:2px solid black;
+ margin: 10px;
+ border-radius:0.5;
+}
+#Introduction h1 {
+  text-align: center;
+  color: black;
+}
 
 /* MENU CATEGORIES PAGE */
 .category-tile { 
@@ -331,7 +374,7 @@ h3.menu-item-title {
     margin-top: 30px;
     padding: 0;
   }
-  #menu-tile, #specials-tile {
+  #Hobbies, #Traning {
     width: 360px;
     margin: 0 auto 15px;
   }
@@ -358,7 +401,7 @@ h3.menu-item-title {
   /* End Header */
   
   /* Home page */
-  #menu-tile, #specials-tile {
+  #Hobbies, #Traning {
     width: 280px;
     margin: 0 auto 15px;
   }
