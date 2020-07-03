@@ -11,5 +11,10 @@
     "url": "https://rozmin99/first-project.git"
   },
   "author": "\"Rozmin Waghu\"",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  }
 }
