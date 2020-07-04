@@ -3,18 +3,28 @@ body{
 	
 	background-color: skyblue;
 }
-#list-styled{
+#list-unstyled{
  
 	color: black;
 }
 footer{
 	background-color: black;
 	color: white;
-	min-height: 4px;
-	min-width: 15px;
-	margin: 10px;
+	padding: 20px 0px 20px 0px;
+
+	
+	
 
 }
-#lii{
-	margin: 50px;
+.jumbotron {
+	padding: 70px 30px 70px 30px;
+	margin: 0px auto;
+	background-color: #9575cd;
+	color: floralwhite;
+}
+address{
+	font-size: 80%;
+	margin: 0px;
+   color: white;
+
 }
