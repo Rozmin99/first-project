@@ -1,0 +1,20 @@
+
+body{
+	
+	background-color: skyblue;
+}
+#list-styled{
+ 
+	color: black;
+}
+footer{
+	background-color: black;
+	color: white;
+	min-height: 4px;
+	min-width: 15px;
+	margin: 10px;
+
+}
+#lii{
+	margin: 50px;
+}
