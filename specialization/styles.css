@@ -1,0 +1,121 @@
+
+body{
+	padding: 50px  0px 50px 0px;
+	z-index: 0;
+	background-color: skyblue;
+	
+}
+#list-unstyled{
+ 
+	color: black;
+}
+footer{
+	background-color: black;
+	color: white;
+	padding: 20px 0px 20px 0px;
+
+	
+	
+
+}
+.jumbotron {
+	padding: 70px 30px 70px 30px;
+	margin: 0px auto;
+	background-color: #9575cd;
+	color: floralwhite;
+}
+address{
+	font-size: 80%;
+	margin: 0px;
+   color: white;
+
+}
+.navbar-dark{
+	background-color: #512da8;
+}
+#Introduction{
+	border: 3px solid #512da8 ;
+	color:green; 
+	background-color: #f8f9fa;;
+	padding: 20px;
+}
+#Introduction h3{
+	color: black;
+}
+#contact{
+	background-color: #e9ecef;
+	color:black ;
+	font-weight: bold;
+	margin: 10px;
+	font-size: 1.5em;
+}
+ #det{
+	font-size: 1em;
+	margin-left: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#feed{
+	border:2px solid black;
+	text-align: center;
+	font-weight: bold;
+	background-color:#ced4da;
+
+}
+#idente{
+	color: black;
+
+}
+.card h3{
+	font-size: 1.5em;
+}
+
+image{
+	url
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+#phi{
+	background-color: blue;
+	background-image: url('images/girl.png');
+	height: 1200px;
+	width: 1200px;
+  }
+  #Introduction{
+	background-image: url(images/girl2.png) ;
+	background-size: 361px 561px;
+	background-position: top;
+	padding: 677px: 
+
+}
+  
+
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+#Introduction{
+	background-image: url( images/girl2.png) no-repeat ;
+	background-size: 100px 100px;
+    height: 500px;
+    width: 90%;
+    overflow: auto;
+}
+  
+}
+  /********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+  kkkk
+  }
+
+@media (max-width: 767px) {
+	
+
+    
+    
+
+}
