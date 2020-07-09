@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="bootstrap/dist/css/styles.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="bootstrap-social/bootstrap-social.css">
-    <title>Rozmin Waghu</title>
+    <title>Rozmin Waghu ContactUsS</title>
 
 </head>
 
@@ -25,10 +25,21 @@
             <a class="navbar-brand" href="#"><img src="images/cup250x250.jpeg" alt="cup" height="35"> Rozmin Waghu</a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
-                        <li class="nav-item"><a class="nav-link" href="index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                        <li class="nav-item "><a class="nav-link" href="index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="about.html"><span class="fa fa-info fa-lg"></span> About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="menu.html"><span class="fa fa-list fa-lg"></span> Menu</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+                        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="fa fa-list
+         fa-lg"></span> 
+          Menu
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Training & Intership</a>
+          <a class="dropdown-item" href="#">My Projects</a>
+           <a class="dropdown-item" href="#">My Hobbies</a>
+
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+                        <li class="nav-item active"><a class="nav-link" href=""><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -47,32 +58,90 @@
         </div>
     </header>
 
-    <div class="container">
-        <div class="">
-            <div>
-              
-               <hr>
-            </div>
-        </div>
+<div class="container">
 
-        <div class="">
-            <div>
-                
-            </div>
-            <div>
-            </div>
-        </div>
+      <h2>Contact Us</h2>
+      <hr>
+                     <div>
+                    <a role="button" class="btn btn-primary" href="tel:9764933769"><i class="fa fa-phone"></i> Call</a> Press on Call button to call</div><br>
+                    
+                    <div>
+                    <a role="button" class="btn btn-info" href=""><i class="fa fa-skype"></i> Skype</a> Press on Skype button to video call</div><br>
+                    <div>
+                    <a role="button" class="btn btn-success" href="mailto:rozminwaghu99@gmail.com"><i class="fa fa-envelope-o"></i> Email</a> Press on Email button to email</div><br>
+                </div>
 
 
-        <div>
-            <div>
-                
-                
-            </div>
-       </div>
+   >
+</div>
 
-    </div>
+<div class="container">
+  <div><h3>Send A Message</h3></div>
+  <div>
+<br>
+    <form>
+                    <div class="form-group row">
+                        <label for="firstname" class="col-md-2 col-form-label">First Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                         <label for="Gender" class="col-md-2 col-form-label">Gender</label>
+                        <div class="col-md-10">
+                          
+                            
+                        
+                       
+                            <select class="form-control" placeholder="Gender">
+                                <option>Male</option>
+                                <option>Fe-male</option>
+                            </select>
+                        </div>
+                    </div>
 
+
+
+                      <div class="form-group row">
+                        <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
+                        <div class="col-5 col-md-3">
+                            <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area code">
+                        </div>
+                        <div class="col-7 col-md-7">
+                            <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="emailid" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
+                        </div>
+                    </div>
+                      <div class="form-group row">
+                        <label for="feedback" class="col-md-2 col-form-label">Message</label>
+                        <div class="col-md-10">
+                            <textarea class="form-control" id="feedback" name="feedback" rows="10"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-primary">Send Feedback</button>
+                        </div>
+                    </div>
+                </form>
+
+
+  </div>
+</div>
+
+   
     <footer class="footer">
         <div class="container">
             <div class="row">             
@@ -88,14 +157,15 @@
                 <div class="col-7 col-sm-5">
                     <h5 class="text-white">Our Address</h5>
                     <address class="text-white">
-		              560/A, Hafiza Villa,<br>
-		              Vishwa Nagar, S.V. Road,<br>
-		              Ratnagiri - 415612<br>
-		              <i class="fa fa-phone fa-lg"></i> : 9764933769<br>
-                      
-                      <i class="fa fa-envelope fa-lg"></i> : 
-		              <a href="mailto:confusion@food.net">rozminwaghu99@gmail.com</a>
-		           </address>
+                      560/A, Hafiza Villa,<br>
+                      Vishwa Nagar, S.V. Road,<br>
+                      Ratnagiri - 415612<br>
+                      <a href="tel:9764933769">
+                      <i class="fa fa-phone fa-lg"></i> : 9764933769</a><br>
+                      <a href="rozminwaghu99@gmail.com">
+                      <i class="fa fa-envelope fa-lg"></i> 
+                      rozminwaghu99@gmail.com</a>
+                   </address>
                 </div>
                 <div class="col-12 col-sm-4 align-self-center">
                     <div class="text-center">
