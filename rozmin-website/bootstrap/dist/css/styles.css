@@ -1,3 +1,6 @@
+body{
+	background: url(images/bb.gif);
+}
 .row-header{
 	margin:0px auto;
 	padding: 0px auto;
@@ -33,4 +36,20 @@
 }
 #more{
 	display: none;
+}
+.carousel{
+	background: black;
+
+}
+.carousel-item{
+
+
+}
+.carsoule-item img{
+	position: absolute;
+	margin: 10px;
+	min-height: 300px;
+}
+.container{
+	background: url(images/cup.jpeg);
 }
