@@ -1,6 +1,4 @@
-body{
-	background: url(images/bb.gif);
-}
+
 .row-header{
 	margin:0px auto;
 	padding: 0px auto;
@@ -22,7 +20,7 @@ body{
 .jumbotron{
 	padding: 70px 30px 70px 30px;
 	margin: 0px auto;
-	background:#9575cd;
+	background:#1DC9EE ;
 	color:floralwhite;
 }
 
@@ -32,10 +30,8 @@ body{
 	color: floralwhite;
 }
 .navbar{
-	background-color: #6f42c1; ;
-}
-#more{
-	display: none;
+	background-color:black ;
+
 }
 .carousel{
 	background: black;
@@ -49,7 +45,4 @@ body{
 	position: absolute;
 	margin: 10px;
 	min-height: 300px;
-}
-.container{
-	background: url(images/cup.jpeg);
 }

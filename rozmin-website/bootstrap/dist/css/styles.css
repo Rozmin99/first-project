@@ -1,6 +1,4 @@
-body{
-	background: url(images/bb.gif);
-}
+
 .row-header{
 	margin:0px auto;
 	padding: 0px auto;
@@ -14,29 +12,20 @@ body{
 	min-height: 400px;
 }
 
-.footer{
-	background-color: black;
-	margin: 0px auto;
-	padding: 20px 0px 20px 0px;
-}
+
 .jumbotron{
 	padding: 70px 30px 70px 30px;
 	margin: 0px auto;
-	background:#9575cd;
+	background:#33FFBD;
 	color:floralwhite;
 }
 
-.address{
-	font-size: 80%;
-	margin: 0px;
-	color: floralwhite;
-}
+
 .navbar{
-	background-color: #6f42c1; ;
+	background-color: #33FFBD;
 }
-#more{
-	display: none;
-}
+
+
 .carousel{
 	background: black;
 
