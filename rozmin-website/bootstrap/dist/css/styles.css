@@ -74,7 +74,11 @@
 	margin: 10px;
 	
 }
-#saru{
-	
-	padding: 5px;
+.leftcolumn {
+  float: left;
+  width: 30%;
+}
+.myvideo{
+	 min-width: 100%;
+  min-height: 100%;
 }
